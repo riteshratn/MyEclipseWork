@@ -13,7 +13,8 @@ public class arraysEquality {
 		}else {
 			System.out.println("Arrays are not equal");
 		}
-
+		
+		
 	}
 
 }

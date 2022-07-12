@@ -15,12 +15,12 @@ public class TryCatch {
 		
 		//method 2
 		Scanner sc=new Scanner(System.in);
-		System.out.println("whats ur fav number");
+		System.out.println("What's ur fav. number");
 		try {
 			int n=sc.nextInt();
 			System.out.println("your fav no. is= " +n);
 		}catch(Exception e) {
-			System.out.println("sorry! you did not enter a number");
+			System.out.println("Sorry! you did not enter a number");
 		}
 		
 		//method 3

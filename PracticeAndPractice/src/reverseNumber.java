@@ -5,9 +5,9 @@ public class reverseNumber {
 	public static void main(String[] args) {
 	
 		Scanner scan=new Scanner(System.in);
-		System.out.println("enter a number");
-		int num=scan.nextInt();
-		int rev=0;
+		System.out.println("enter a number you want to reverse");
+		long num=scan.nextLong();
+		long rev=0;
 		while(num!=0) {
 			rev=rev*10+num%10;
 			num/=10;

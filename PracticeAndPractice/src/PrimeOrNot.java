@@ -10,7 +10,7 @@ public class PrimeOrNot {
 				if(num%i==0)
 					count++;
 			}
-			if(count==2) {
+			if(count==17) {
 				System.out.println("prime number");
 			}else {
 				System.out.println("Not a prime number");

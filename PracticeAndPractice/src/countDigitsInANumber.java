@@ -12,7 +12,7 @@ public class countDigitsInANumber {
 			num=num/10;
 			count++;
 		}
-          System.out.println("Number Of Digits:" +count);
+          System.out.println("Number Of Digits is:" +count);
 	}
 
 }
